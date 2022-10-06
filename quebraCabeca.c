@@ -16,5 +16,8 @@ int main(void)
         letters[string[i]++];
     }
     int odd = 0;
+    for (i = 0; i < 128; i++)
+    {
+    }
     return 0;
 }
