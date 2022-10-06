@@ -8,5 +8,6 @@ int main(void)
     {
         letters[i] = 0;
     }
+    char string[100001];
     return 0;
 }
