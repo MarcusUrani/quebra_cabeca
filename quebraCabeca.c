@@ -11,5 +11,9 @@ int main(void)
     char string[100001];
     scanf("%s", string);
     int string_length = strlen(string);
+    for (i = 0; i < string_length; i++)
+    {
+        letters[string[i]++];
+    }
     return 0;
 }
