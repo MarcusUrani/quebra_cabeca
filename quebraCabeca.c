@@ -13,7 +13,7 @@ int main(void)
     int string_length = strlen(string);
     for (i = 0; i < string_length; i++)
     {
-        letters[string[i]++];
+        letters[string[i]]++;
     }
     int odd = 0;
     for (i = 0; i < 128; i++)
