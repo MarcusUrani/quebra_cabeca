@@ -20,7 +20,16 @@ int main(void)
     {
         if (letters[i] % 2 == 1)
         {
+            odd++;
         }
+    }
+    if (odd == 1)
+    {
+        printf("Nao\n");
+    }
+    else
+    {
+        printf("Sim\n");
     }
     return 0;
 }
