@@ -9,5 +9,6 @@ int main(void)
         letters[i] = 0;
     }
     char string[100001];
+    scanf("%s", string);
     return 0;
 }
