@@ -23,7 +23,7 @@ int main(void)
             odd++;
         }
     }
-    if (odd == 1)
+    if (odd > 1)
     {
         printf("Nao\n");
     }
