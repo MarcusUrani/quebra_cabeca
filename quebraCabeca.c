@@ -18,6 +18,9 @@ int main(void)
     int odd = 0;
     for (i = 0; i < 128; i++)
     {
+        if (letters[i] % 2 == 1)
+        {
+        }
     }
     return 0;
 }
