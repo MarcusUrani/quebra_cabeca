@@ -10,5 +10,6 @@ int main(void)
     }
     char string[100001];
     scanf("%s", string);
+    int string_length = strlen(string);
     return 0;
 }
