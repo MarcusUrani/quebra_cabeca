@@ -15,5 +15,6 @@ int main(void)
     {
         letters[string[i]++];
     }
+    int odd = 0;
     return 0;
 }
